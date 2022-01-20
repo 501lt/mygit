@@ -1,0 +1,17 @@
+#include<stdio.h>//已知三边求面积
+#include<math.h>
+int main()
+{ 
+	float a, b, c;
+	double s, area;
+	printf("请输入三角形的三条边：");
+	scanf("%f%f%f", &a, &b, &c);
+	s = (a + b + c) / 2;
+	if (a + b <= c || a - b >= b)
+	{
+		printf("输入的三条边不构成三角形");
+	}
+	area = sqrt(s*(s - a)*(s - b)*(s - c));
+	printf("area=%lf\n", area);
+	return 0;
+}
