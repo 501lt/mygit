@@ -1,0 +1,13 @@
+//int main()//n的阶乘
+//{ 
+//	int a = 0;
+//	int  n = 0;
+//	int sum = 1;
+//	scanf("%d", &n);//输入n
+//	for (a = 1; a <= n; a++)
+//	{
+//		sum = sum * a;
+//	}
+//		printf("%d\n", sum);
+//	return 0;
+//}
